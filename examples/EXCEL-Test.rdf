@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:network="http://www.semanticweb.org/stephenbonner/ontologies/2015/8/networkIngestion#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="236589e6-c4c4-4836-b908-5e5c12d81e52">
+    <network:startingLine>4</network:startingLine>
+    <network:delimData>t</network:delimData>
+    <network:fileType>excel</network:fileType>
+    <network:node rdf:resource="a4f96fc4-1ca7-41b6-80e3-656faa9d8855"/>
+    <network:filePath>examples/EXCEL-Test.xlsx</network:filePath>
+    <network:fileName>EXCEL-Test.xlsx</network:fileName>
+    <network:edge rdf:resource="41018a31-43d8-432c-948c-4a6bdf4ec5f7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="41018a31-43d8-432c-948c-4a6bdf4ec5f7">
+    <network:hasValueTo>1</network:hasValueTo>
+    <network:hasValueFrom>0</network:hasValueFrom>
+    <network:edgeAttributes>attr1:1</network:edgeAttributes>
+  </rdf:Description>
+  <rdf:Description rdf:about="a4f96fc4-1ca7-41b6-80e3-656faa9d8855">
+    <network:nodeAttributes>None</network:nodeAttributes>
+    <network:hasValue>None</network:hasValue>
+  </rdf:Description>
+</rdf:RDF>

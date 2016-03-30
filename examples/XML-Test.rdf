@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:network="http://www.semanticweb.org/stephenbonner/ontologies/2015/8/networkIngestion#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="e9b5c7be-9a10-446d-886e-736edd7d8833">
+    <network:fileName>XML-Test.xml</network:fileName>
+    <network:edge rdf:resource="d43d192f-2f9d-40eb-8cdb-52f67e50648f"/>
+    <network:filePath>/Users/johnbrennan/Documents/git/network-ingestion/network-injestion/examples/XML-Test.xml</network:filePath>
+    <network:delimData>None</network:delimData>
+    <network:fileType>xml</network:fileType>
+    <network:startingLine>None</network:startingLine>
+    <network:node rdf:resource="b290c1cc-9098-46a3-8358-1c36539da4f1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="d43d192f-2f9d-40eb-8cdb-52f67e50648f">
+    <network:hasValueTo>/posts/row/@Id</network:hasValueTo>
+    <network:hasValueFrom>/posts/row/@PostTypeId</network:hasValueFrom>
+    <network:edgeAttributes>attr1:/posts/row/@CreationDate,attr2:/posts/row/@Score</network:edgeAttributes>
+  </rdf:Description>
+  <rdf:Description rdf:about="b290c1cc-9098-46a3-8358-1c36539da4f1">
+    <network:nodeAttributes>None</network:nodeAttributes>
+    <network:hasValue>None</network:hasValue>
+  </rdf:Description>
+</rdf:RDF>

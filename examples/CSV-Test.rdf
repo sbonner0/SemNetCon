@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:network="http://www.semanticweb.org/stephenbonner/ontologies/2015/8/networkIngestion#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="ba99bbac-3665-487e-89c1-d89e7af2cbc5">
+    <network:hasValueFrom>0</network:hasValueFrom>
+    <network:edgeAttributes>None</network:edgeAttributes>
+    <network:hasValueTo>1</network:hasValueTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="30431a6c-15e3-43cd-8b96-1f1ae6c67fac">
+    <network:startingLine>4</network:startingLine>
+    <network:edge rdf:resource="ba99bbac-3665-487e-89c1-d89e7af2cbc5"/>
+    <network:fileType>csv</network:fileType>
+    <network:fileName>CSV-Test.txt</network:fileName>
+    <network:delimData>t</network:delimData>
+    <network:node rdf:resource="2160ec20-29b1-42f1-a7f2-1d10b8ae84d8"/>
+    <network:filePath>examples/CSV-Test.txt</network:filePath>
+  </rdf:Description>
+  <rdf:Description rdf:about="2160ec20-29b1-42f1-a7f2-1d10b8ae84d8">
+    <network:hasValue>None</network:hasValue>
+    <network:nodeAttributes>None</network:nodeAttributes>
+  </rdf:Description>
+</rdf:RDF>

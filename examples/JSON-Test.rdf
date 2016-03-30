@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:network="http://www.semanticweb.org/stephenbonner/ontologies/2015/8/networkIngestion#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="3d1e06a0-8fed-41a0-bf11-5e849dd864df">
+    <network:fileName>JSON-Test.txt</network:fileName>
+    <network:startingLine>None</network:startingLine>
+    <network:fileType>json</network:fileType>
+    <network:edge rdf:resource="550b3360-596d-4181-aa76-1fa2800a0af3"/>
+    <network:delimData>None</network:delimData>
+    <network:filePath>/Users/johnbrennan/Documents/git/network-ingestion/network-injestion/examples/JSON-Test.txt</network:filePath>
+    <network:node rdf:resource="6bc006c3-05e1-4b73-9f09-90515a1e377f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="550b3360-596d-4181-aa76-1fa2800a0af3">
+    <network:hasValueTo>.time_zone</network:hasValueTo>
+    <network:edgeAttributes>attr1:.entities.url.urls[].expanded_url,attr2:.location</network:edgeAttributes>
+    <network:hasValueFrom>.screen_name</network:hasValueFrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="6bc006c3-05e1-4b73-9f09-90515a1e377f">
+    <network:nodeAttributes>None</network:nodeAttributes>
+    <network:hasValue>None</network:hasValue>
+  </rdf:Description>
+</rdf:RDF>

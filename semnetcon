@@ -1,0 +1,22 @@
+#!/usr/bin/python
+import argparse, sys
+import src.RdfBuildGUI as GUI
+import src.Network_Constructor as NC
+
+
+if __name__ == "__main__":
+
+    # Use argparse to require the two required command line arguments
+    parser = argparse.ArgumentParser(description='A tool to convert various data sources into a network via the use of RDF.')
+    parser.add_argument('--cli', action='store_true', help='Use CLI instaed of default GUI: Requires -r and -o')
+    parser.add_argument('-r', '--rdf', type=str, nargs=1, required = False, help='The location of the rdf file to be processed.')
+    parser.add_argument('-o', '--out', type=str, nargs=1, required = False, help='The file format for the final network object to be saved as.')
+    args = parser.parse_args()
+
+    if args.cli:
+    	if not args.rdf or not args.out:
+    		parser.error('--cli requires -r and -o')
+    		sys.exit(1)
+    	NC.main(str(args.rdf[0]), str(args.out[0]))
+    else:
+    	GUI.run_rdfCreate()
