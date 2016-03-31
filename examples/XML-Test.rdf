@@ -6,7 +6,7 @@
   <rdf:Description rdf:about="e9b5c7be-9a10-446d-886e-736edd7d8833">
     <network:fileName>XML-Test.xml</network:fileName>
     <network:edge rdf:resource="d43d192f-2f9d-40eb-8cdb-52f67e50648f"/>
-    <network:filePath>/Users/johnbrennan/Documents/git/network-ingestion/network-injestion/examples/XML-Test.xml</network:filePath>
+    <network:filePath>examples/XML-Test.xml</network:filePath>
     <network:delimData>None</network:delimData>
     <network:fileType>xml</network:fileType>
     <network:startingLine>None</network:startingLine>
