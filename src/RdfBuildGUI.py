@@ -186,12 +186,10 @@ def formbox(message="Enter something.", title="", argDefaultText=None, currentFi
     #-------------------- the info widget7 ----------------------------
     edgeAttrInfo = Message(main_frame, text="Edge Attrs", width=80).grid(row=7, column=1, sticky=W)
     #-------------------- the info widget8 ----------------------------
-    delimInfo = Message(main_frame, text="Delimter", width=80).grid(row=8, column=1, sticky=W)
+    delimInfo = Message(main_frame, text="Delimiter", width=80).grid(row=8, column=1, sticky=W)
     #-------------------- the info widget9 ----------------------------
     startLineInfo = Message(main_frame, text="Starting Line", width=80).grid(row=9, column=1, sticky=W)
-    #-------------------- the info widget9 ----------------------------
-    startLineInfo = Message(main_frame, text="Starting Line", width=80).grid(row=9, column=1, sticky=W)
-    #-------------------- the info widget9 ----------------------------
+    #-------------------- the info widget10 ----------------------------
     OutputInfo = Message(main_frame, text="Output Format", width=80).grid(row=10, column=1, sticky=W)
 
     # --------- locationEntry (File) ---------------------------------------------
@@ -204,7 +202,7 @@ def formbox(message="Enter something.", title="", argDefaultText=None, currentFi
     locationEntry.insert(0,currentFile)
     locationEntry.configure(state=DISABLED)
     # --------- typeEntry (File Type) ---------------------------------------------
-    typeChoices = ['csv', 'excel', 'json', 'xml','rdf']    
+    typeChoices = ['csv', 'excel', 'json', 'xml']    
     typeOption = StringVar(root)
     typeOption.set(typeChoices[0])
     typeEntry = OptionMenu(main_frame, typeOption, *typeChoices)
