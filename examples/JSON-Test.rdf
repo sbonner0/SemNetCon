@@ -14,11 +14,11 @@
   </rdf:Description>
   <rdf:Description rdf:about="550b3360-596d-4181-aa76-1fa2800a0af3">
     <network:hasValueTo>.time_zone</network:hasValueTo>
-    <network:edgeAttributes>attr1:.entities.url.urls[].expanded_url,attr2:.location</network:edgeAttributes>
+    <network:edgeAttributes>url:.entities.url.urls[].expanded_url,loc:.location</network:edgeAttributes>
     <network:hasValueFrom>.screen_name</network:hasValueFrom>
   </rdf:Description>
   <rdf:Description rdf:about="6bc006c3-05e1-4b73-9f09-90515a1e377f">
-    <network:nodeAttributes>None</network:nodeAttributes>
-    <network:hasValue>None</network:hasValue>
+    <network:nodeAttributes>id:.id,verified:.verified</network:nodeAttributes>
+    <network:hasValue>.screen_name</network:hasValue>
   </rdf:Description>
 </rdf:RDF>
