@@ -28,7 +28,7 @@ SemNetCon has the following dependencies, all of which are available via pip;
 Dependancy  | Min Version
 ------------- | -------------
 Python  | 2.7
-NetworkX | 1.10jq [^depOption]| 0.1.5
+NetworkX | 1.10jq <sup id="a1">[1](#f1)</sup>| 0.1.5
 lxml | 3.4.4rdflib | 4.2.1SPARQLWrapper | 1.7.4xlrd | 0.9.4
 
 ### Downloading
@@ -49,7 +49,7 @@ The graphical interface is invoked with:
 
 Upon invoking the GUI the user is asked to select an input file. Once this is done the file information form will be presented.
 <center><img src="http://raw.githubusercontent.com/sbonner0/SemNetCon/master/docs/images/info_form_default.png" alt="Default Form" style="width: 60%;"/></center>
-File Type and Output Format are simply selected through drop-down options. Other fields are dependent on the input file format being used, these are explained fully below.[^fileNote]
+File Type and Output Format are simply selected through drop-down options. Other fields are dependent on the input file format being used, these are explained fully below.<sup id="a2">[2](#f2)</sup>
 
 **note** All attributes are specified in the form `name:value` where `name` is a user defined literal string and `value` is defined as a suitable form for the input type. Multiple attributes must be comma separated.
 
@@ -152,11 +152,11 @@ Using SemNetCon in this manner requires that the user already has a pre-generate
 
 Flag  | File Type
 ------------- | -------------
-gml | GML[^gml]
+gml | GML<sup id="a3">[3](#f3)</sup>
 adj | Adjacency List
 mladj | Multiline Adjacency List
-graphml | GraphML[^graphml]
-pajek | Pajek[^pajek]
+graphml | GraphML<sup id="a4">[4](#f4)</sup>
+pajek | Pajek<sup id="a5">[5](#f5)</sup>
 
 ## Developer
 
@@ -181,12 +181,12 @@ In order to add a custom parser the following steps are required.
 * Add the new type option to the drop-down list in `RdfBuildGUI.formbox` using the typeChoices variable.
 * Specify any fields that should not be active for the required type using `RdfBuildGUI.typeUpdate`.
 
-[^depOption]: The jq dependancy is interchangeable with jsonpath rw > 1.4.0.
+<b id="f1">1</b> The jq dependancy is interchangeable with jsonpath rw > 1.4.0. [↩](#a1)
 
-[^fileNote]: It is expected that a single file will contain either node or edge information, not both. However if this is the case the same file can be included twice, once with node information and once with edge information.
+<b id="f2">2</b> It is expected that a single file will contain either node or edge information, not both. However if this is the case the same file can be included twice, once with node information and once with edge information. [↩](#a2)
 
-[^gml]: [GML Information](https://www.fim.uni-passau.de/fileadmin/files/lehrstuhl/brandenburg/projekte/gml/gml-technical-report.pdf)
+<b id="f3">3</b> [GML Information](https://www.fim.uni-passau.de/fileadmin/files/lehrstuhl/brandenburg/projekte/gml/gml-technical-report.pdf) [↩](#a3)
 
-[^graphml]: [GraphML Information](http://graphml.graphdrawing.org/primer/graphml-primer.html)
+<b id="f4">4</b> [GraphML Information](http://graphml.graphdrawing.org/primer/graphml-primer.html) [↩](#a4)
 
-[^pajek]: [Pajek Information](http://vlado.fmf.uni-lj.si/pub/networks/pajek/doc/pajekman.pdf)
+<b id="f5">5</b> [Pajek Information](http://vlado.fmf.uni-lj.si/pub/networks/pajek/doc/pajekman.pdf) [↩](#a5)
