@@ -1,4 +1,4 @@
-<img align="right" style="width: 25%" src="http://raw.githubusercontent.com/sbonner0/SemNetCon/master/docs/images/network.png?raw=true">
+<img align="right" src="http://raw.githubusercontent.com/sbonner0/SemNetCon/master/docs/images/network.png?raw=true">
 # SemNetCon
 
 ### What is SemNetCon
@@ -49,7 +49,7 @@ The graphical interface is invoked with:
 
 Upon invoking the GUI the user is asked to select an input file. Once this is done the file information form will be presented.
 <p align="center">
-<img src="http://raw.githubusercontent.com/sbonner0/SemNetCon/master/docs/images/info_form_default.png?raw=true" alt="Default Form" style="width: 60%;"/>
+<img src="http://raw.githubusercontent.com/sbonner0/SemNetCon/master/docs/images/info_form_default.png?raw=true" alt="Default Form"/>
 </p>
 File Type and Output Format are simply selected through drop-down options. Other fields are dependent on the input file format being used, these are explained fully below.<sup id="a2">[2](#f2)</sup>
 
