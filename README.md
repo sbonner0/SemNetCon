@@ -1,5 +1,4 @@
-<img align="right" src="http://raw.githubusercontent.com/sbonner0/SemNetCon/master/docs/images/network.png?raw=true">
-# SemNetCon
+![Logo](https://raw.githubusercontent.com/sbonner0/SemNetCon/master/docs/images/logo.png?raw=true)
 
 ### What is SemNetCon
 Semantic Enabled Python Tool For The Construction Of Complex Networks From Disperse Data Sources (SemNetCon).
@@ -48,9 +47,9 @@ The graphical interface is invoked with:
 `./semnetcon`
 
 Upon invoking the GUI the user is asked to select an input file. Once this is done the file information form will be presented.
-<p align="center">
-<img src="http://raw.githubusercontent.com/sbonner0/SemNetCon/master/docs/images/info_form_default.png?raw=true" alt="Default Form"/>
-</p>
+
+![Default Form](https://raw.githubusercontent.com/sbonner0/SemNetCon/master/docs/images/info_form_default.png?raw=true)
+
 File Type and Output Format are simply selected through drop-down options. Other fields are dependent on the input file format being used, these are explained fully below.<sup id="a2">[2](#f2)</sup>
 
 **note** All attributes are specified in the form `name:value` where `name` is a user defined literal string and `value` is defined as a suitable form for the input type. Multiple attributes must be comma separated.
