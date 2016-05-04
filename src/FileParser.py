@@ -301,7 +301,7 @@ def parseCSV(decodedInfo,G):
 
     # Open the required file
     try:
-        with open(metaMap['location'], 'rb') as csvfile:
+        with open(metaMap['location'], 'rU') as csvfile:
             dataReader = csv.reader(csvfile, delimiter=metaMap['dlim'])
 
             # Advance to starting line
